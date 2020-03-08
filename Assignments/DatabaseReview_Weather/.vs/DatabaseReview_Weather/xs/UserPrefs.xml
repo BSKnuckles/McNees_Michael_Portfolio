@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{B5AEAE3E-FCE1-4D8F-9858-5A583BCFCF8E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DatabaseReview_Weather/Program.cs">
+    <Files>
+      <File FileName="DatabaseReview_Weather/Program.cs" Line="50" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DatabaseReview_Weather" expanded="True">
+            <Node name="DatabaseReview_Weather" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DatabaseReview__Weather PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
