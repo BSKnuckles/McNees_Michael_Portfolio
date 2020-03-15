@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{30D7D503-D1C4-4F1C-B596-081268CE43C5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="McNees_Michael_Conditionals/Program.cs">
+    <Files>
+      <File FileName="McNees_Michael_Conditionals/Program.cs" Line="270" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="McNees_Michael_Conditionals" expanded="True">
+            <Node name="McNees_Michael_Conditionals" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.McNees__Michael__Conditionals PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

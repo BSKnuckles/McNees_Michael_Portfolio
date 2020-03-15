@@ -1,0 +1,11 @@
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/bin/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.deps.json
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/bin/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.runtimeconfig.json
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/bin/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.runtimeconfig.dev.json
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/bin/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.dll
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/bin/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.pdb
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/obj/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.csprojAssemblyReference.cache
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/obj/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.csproj.CoreCompileInputs.cache
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/obj/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.AssemblyInfoInputs.cache
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/obj/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.AssemblyInfo.cs
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/obj/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.dll
+/Users/michael/Projects/McNees_Michael_GroceryCalc/McNees_Michael_GroceryCalc/obj/Debug/netcoreapp2.1/McNees_Michael_GroceryCalc.pdb

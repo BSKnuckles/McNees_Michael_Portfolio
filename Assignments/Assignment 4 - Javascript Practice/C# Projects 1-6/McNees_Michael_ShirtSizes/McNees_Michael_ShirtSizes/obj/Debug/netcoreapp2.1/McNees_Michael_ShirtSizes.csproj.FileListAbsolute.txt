@@ -1,0 +1,11 @@
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/bin/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.deps.json
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/bin/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.runtimeconfig.json
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/bin/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.runtimeconfig.dev.json
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/bin/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.dll
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/bin/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.pdb
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/obj/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.csprojAssemblyReference.cache
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/obj/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.csproj.CoreCompileInputs.cache
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/obj/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.AssemblyInfoInputs.cache
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/obj/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.AssemblyInfo.cs
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/obj/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.dll
+/Users/michael/Projects/McNees_Michael_ShirtSizes/McNees_Michael_ShirtSizes/obj/Debug/netcoreapp2.1/McNees_Michael_ShirtSizes.pdb

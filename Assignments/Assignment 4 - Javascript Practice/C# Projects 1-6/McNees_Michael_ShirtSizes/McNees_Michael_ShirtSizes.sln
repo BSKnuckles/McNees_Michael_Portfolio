@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McNees_Michael_ShirtSizes", "McNees_Michael_ShirtSizes\McNees_Michael_ShirtSizes.csproj", "{CCDA97FE-D7E8-4482-8F14-EBA68E0AF3FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDA97FE-D7E8-4482-8F14-EBA68E0AF3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDA97FE-D7E8-4482-8F14-EBA68E0AF3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDA97FE-D7E8-4482-8F14-EBA68E0AF3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDA97FE-D7E8-4482-8F14-EBA68E0AF3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

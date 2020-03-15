@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 2 Assignments/Javascript Practice/Possible Projects/McNees_Michael_Functions/McNees_Michael_Functions/McNees_Michael_Functions.csproj": {}
+  },
+  "projects": {
+    "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 2 Assignments/Javascript Practice/Possible Projects/McNees_Michael_Functions/McNees_Michael_Functions/McNees_Michael_Functions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 2 Assignments/Javascript Practice/Possible Projects/McNees_Michael_Functions/McNees_Michael_Functions/McNees_Michael_Functions.csproj",
+        "projectName": "McNees_Michael_Functions",
+        "projectPath": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 2 Assignments/Javascript Practice/Possible Projects/McNees_Michael_Functions/McNees_Michael_Functions/McNees_Michael_Functions.csproj",
+        "packagesPath": "/Users/michael/.nuget/packages/",
+        "outputPath": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 2 Assignments/Javascript Practice/Possible Projects/McNees_Michael_Functions/McNees_Michael_Functions/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/michael/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

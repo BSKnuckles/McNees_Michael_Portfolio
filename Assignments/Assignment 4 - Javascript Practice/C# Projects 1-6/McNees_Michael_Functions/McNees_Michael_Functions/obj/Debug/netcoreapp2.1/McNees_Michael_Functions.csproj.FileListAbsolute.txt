@@ -1,0 +1,11 @@
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/bin/Debug/netcoreapp2.1/McNees_Michael_Functions.deps.json
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/bin/Debug/netcoreapp2.1/McNees_Michael_Functions.runtimeconfig.json
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/bin/Debug/netcoreapp2.1/McNees_Michael_Functions.runtimeconfig.dev.json
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/bin/Debug/netcoreapp2.1/McNees_Michael_Functions.dll
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/bin/Debug/netcoreapp2.1/McNees_Michael_Functions.pdb
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/obj/Debug/netcoreapp2.1/McNees_Michael_Functions.csprojAssemblyReference.cache
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/obj/Debug/netcoreapp2.1/McNees_Michael_Functions.csproj.CoreCompileInputs.cache
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/obj/Debug/netcoreapp2.1/McNees_Michael_Functions.AssemblyInfoInputs.cache
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/obj/Debug/netcoreapp2.1/McNees_Michael_Functions.AssemblyInfo.cs
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/obj/Debug/netcoreapp2.1/McNees_Michael_Functions.dll
+/Users/michael/Projects/McNees_Michael_Functions/McNees_Michael_Functions/obj/Debug/netcoreapp2.1/McNees_Michael_Functions.pdb

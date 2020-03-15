@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{47888E35-F78F-4D1F-A2EE-8439BB456F13}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="McNees_Michael_GroceryCalc/Program.cs">
+    <Files>
+      <File FileName="McNees_Michael_GroceryCalc/Program.cs" Line="20" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="McNees_Michael_GroceryCalc" expanded="True">
+            <Node name="McNees_Michael_GroceryCalc" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.McNees__Michael__GroceryCalc PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

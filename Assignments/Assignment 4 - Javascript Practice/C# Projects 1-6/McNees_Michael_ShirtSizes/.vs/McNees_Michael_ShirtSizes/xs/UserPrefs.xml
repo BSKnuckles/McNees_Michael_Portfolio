@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{CCDA97FE-D7E8-4482-8F14-EBA68E0AF3FE}|Default">
+  <MonoDevelop.Ide.ItemProperties.McNees__Michael__ShirtSizes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="McNees_Michael_ShirtSizes/Program.cs">
+    <Files>
+      <File FileName="McNees_Michael_ShirtSizes/Program.cs" Line="39" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="McNees_Michael_ShirtSizes" expanded="True">
+            <Node name="McNees_Michael_ShirtSizes" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

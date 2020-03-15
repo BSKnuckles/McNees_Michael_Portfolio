@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{E9FC964E-43E8-446D-BFAC-BA6D51D3B18B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="McNees_Michael_Arrays/Program.cs">
+    <Files>
+      <File FileName="McNees_Michael_Arrays/Program.cs" Line="65" Column="13" />
+      <File FileName="../McNees_Michael_LogicLoops/McNees_Michael_LogicLoops/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="McNees_Michael_Arrays" expanded="True">
+            <Node name="McNees_Michael_Arrays" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.McNees__Michael__Arrays PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

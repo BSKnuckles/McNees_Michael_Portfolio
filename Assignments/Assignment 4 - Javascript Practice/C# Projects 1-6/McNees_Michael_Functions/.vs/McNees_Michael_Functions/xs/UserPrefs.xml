@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{0E479E13-2E41-4954-8C5D-2F4E1BD079BB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="McNees_Michael_Functions/Program.cs">
+    <Files>
+      <File FileName="McNees_Michael_Functions/Program.cs" Line="227" Column="13" />
+      <File FileName="../McNees_Michael_Arrays/McNees_Michael_Arrays/Program.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="McNees_Michael_Functions" expanded="True">
+            <Node name="McNees_Michael_Functions" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.McNees__Michael__Functions PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

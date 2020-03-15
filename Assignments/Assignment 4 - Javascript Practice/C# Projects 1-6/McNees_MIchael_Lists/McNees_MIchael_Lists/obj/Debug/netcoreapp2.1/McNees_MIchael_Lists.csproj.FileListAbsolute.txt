@@ -1,0 +1,11 @@
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/obj/Debug/netcoreapp2.1/McNees_MIchael_Lists.csprojAssemblyReference.cache
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/obj/Debug/netcoreapp2.1/McNees_MIchael_Lists.csproj.CoreCompileInputs.cache
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/obj/Debug/netcoreapp2.1/McNees_MIchael_Lists.AssemblyInfoInputs.cache
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/obj/Debug/netcoreapp2.1/McNees_MIchael_Lists.AssemblyInfo.cs
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/bin/Debug/netcoreapp2.1/McNees_MIchael_Lists.deps.json
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/bin/Debug/netcoreapp2.1/McNees_MIchael_Lists.runtimeconfig.json
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/bin/Debug/netcoreapp2.1/McNees_MIchael_Lists.runtimeconfig.dev.json
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/bin/Debug/netcoreapp2.1/McNees_MIchael_Lists.dll
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/bin/Debug/netcoreapp2.1/McNees_MIchael_Lists.pdb
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/obj/Debug/netcoreapp2.1/McNees_MIchael_Lists.dll
+/Users/michael/Projects/McNees_MIchael_Lists/McNees_MIchael_Lists/obj/Debug/netcoreapp2.1/McNees_MIchael_Lists.pdb
