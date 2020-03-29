@@ -1,0 +1,14 @@
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/bin/Debug/netcoreapp3.1/finalProject.deps.json
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/bin/Debug/netcoreapp3.1/finalProject.runtimeconfig.json
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/bin/Debug/netcoreapp3.1/finalProject.runtimeconfig.dev.json
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/bin/Debug/netcoreapp3.1/finalProject.dll
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/bin/Debug/netcoreapp3.1/finalProject.pdb
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/Debug/netcoreapp3.1/finalProject.csprojAssemblyReference.cache
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/Debug/netcoreapp3.1/finalProject.csproj.CoreCompileInputs.cache
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/Debug/netcoreapp3.1/finalProject.AssemblyInfoInputs.cache
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/Debug/netcoreapp3.1/finalProject.AssemblyInfo.cs
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/Debug/netcoreapp3.1/finalProject.csproj.CopyComplete
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/Debug/netcoreapp3.1/finalProject.dll
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/Debug/netcoreapp3.1/finalProject.pdb
+/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/Debug/netcoreapp3.1/finalProject.genruntimeconfig.cache

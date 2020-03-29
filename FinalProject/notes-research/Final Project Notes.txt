@@ -1,0 +1,113 @@
+# Original Plan
+## Program Files
+	* Main
+	* Animal
+		* Amphibian
+		* Bird
+		* Cat
+		* Dog
+		* Fish
+		* Reptile
+		* SmallMammal
+	* Diet
+	* HabitatTask
+	* ITrainable
+	* Validation
+
+## Methods
+### Main
+	* Main()
+	* selectAnimal()
+	* newPetWizard()
+	* TrainPet()
+	* Habitat()
+	* SaveAnimalData()
+	* LoadAnimalData()
+	* Wait()
+	* Header()
+### Animal
+	* Constructor()
+	* Name
+	* Gender
+	* Age
+	* Species
+	* Tasks
+	* Eat()
+	* AddToDiet()
+	* ListHabitatTasks()
+	* AddToHabitatTasks
+### Dog
+	* override Eat()
+	* LIstCommands() - ITrainable
+	* Train() - ITrainable
+### Diet
+	* Constructor()
+	* AddDietItem()
+	* EatFoodItem()
+	* CanEat()
+	* HasDiet()
+	* ListDiet()
+### HabitatTask
+	* Constructor
+	* Name
+	* Frequency
+	* LastPerformed
+	* IsTaskDue()
+	* CompleteTask()
+
+## Classes
+* animal
+	* reptile
+	* dog
+	* cat
+	* small mammal
+	* amphibian
+	* fish
+* habitat
+* diet
+* Validation
+* DataStorage
+
+## Interface
+* Train
+
+
+
+# To Do
++ Animals classes
+	+ animal
+	+ reptile
+	+ dog
+	+ cat
+	+ small mammal
+	+ amphibian
+	+ fish
++ methods
+	+ selectAnimal
+	+ feedAnimal
+	+ trainAnimal
+	+ habitat
++ File Storage
+
+
+After how many days needs an error message
+Auto add to training if it’s empty
+Habitat enter 0 to go back
+
+Feeding:
+Food not in diet needs alerting!!
+Food list should be shown when asking to enter a food to feed
+
+
+## Additional References
+[Loop through an array in JavaScript - Stack Overflow](https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript)
+[Method Overriding In JavaScript](https://www.c-sharpcorner.com/blogs/method-overriding-in-javascript)
+[Array.prototype.forEach() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+[oop - How to get a JavaScript object's class? - Stack Overflow](https://stackoverflow.com/questions/1249531/how-to-get-a-javascript-objects-class)
+[How to calculate the number of days between two dates in javascript? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-calculate-the-number-of-days-between-two-dates-in-javascript/)
+[How to declare an empty array in JavaScript - Quora](https://www.quora.com/How-do-you-declare-an-empty-array-in-JavaScript)
+[JavaScript Methods](https://www.w3schools.com/js/js_object_methods.asp)
+[Inheritance in JavaScript - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
+[JavaScript Constructors](https://www.w3schools.com/js/js_object_constructors.asp)
+[JavaScript Array length Property](https://www.w3schools.com/jsref/jsref_length_array.asp)
+[Indexed collections - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
