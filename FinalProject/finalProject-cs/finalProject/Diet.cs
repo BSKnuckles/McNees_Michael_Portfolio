@@ -12,12 +12,15 @@ namespace finalProject
             _diet = new Dictionary<string, decimal>();
         }
 
+        // Add item to the diet dictionary
         public void AddDietItem(string food, decimal quantity)
         {
             _diet.Add(food, quantity);
             Console.WriteLine($"\n  Successfully added {food} to the diet!");
         }
 
+        // Eat one fo the items in the list
+        // Could be interesting to expand it to track an inventory of food
         public void EatFoodItem(string food, string petName)
         {
             if (_diet.ContainsKey(food))
@@ -55,6 +58,9 @@ namespace finalProject
             }
         }
 
+        // In hindsight, this probably should have built a string and returned it
+        // rather than printing out directly. Working through the project in JS
+        // made some of these types of separations more obvious
         public void ListDiet()
         {
             Console.WriteLine("  \n  - Diet Options -");

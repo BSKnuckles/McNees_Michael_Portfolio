@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using Newtonsoft.Json.Converters;
 using System.IO;
 
 namespace finalProject
@@ -13,12 +12,13 @@ namespace finalProject
         static void Main(string[] args)
         {
             Animal activePet = null;
+            // I wasn't sure how to accomplish this in JS, but did stick to using instance for non-static methods here
             Program instance = new Program();
 
+            // Load the saved animals from the stored files
             instance.LoadAnimalData();
 
             bool running = true;
-
             while (running)
             {
                 instance.Header();
@@ -131,6 +131,8 @@ namespace finalProject
             {
                 currentPet = NewPetWizard();
 
+                // Automatically drop the user into the new pet wizard if there isn't an active pet.
+                // This makes first time running more user friendly
                 if (currentPet.Name != null)
                 {
                     pets.Add(currentPet);
@@ -141,6 +143,7 @@ namespace finalProject
                     Console.WriteLine("\n  An error occurred.");
                 }
             }
+            // Second run and beyond go here
             else
             {
                 Console.WriteLine("   0. Add New Pet\n");
@@ -149,6 +152,7 @@ namespace finalProject
                     Console.WriteLine($"   {i + 1}. {pets[i].Name} the {pets[i].Species}");
                 }
                 int input = Validation.GetInt($"\n  Choose an option (0-{pets.Count}): ", 0, pets.Count);
+                // If they pick anything other than 0, select that number from the pets list
                 if (input != 0)
                 {
                     currentPet = pets[input - 1];
@@ -156,13 +160,16 @@ namespace finalProject
                 }
                 else
                 {
+                    // If they pick 0, run the new pet wizard
                     currentPet = NewPetWizard();
 
+                    // Check to make sure the wizard worked. This should always be true, but you never know...
                     if (currentPet.Name != null)
                     {
                         pets.Add(currentPet);
                         Console.WriteLine($"\n  Successfully created {currentPet.Name}'s record!");
                     }
+                    // Not sure what could cause it to get here, so a generic error it is!
                     else
                     {
                         Console.WriteLine("An error occurred.");
@@ -190,12 +197,15 @@ namespace finalProject
                 "   5. Amphibian\n" +
                 "   6. Small Mammal\n" +
                 "   7. Bird\n");
-            string petType = Validation.StringNotEmpty($"   Choose {petName}'s type: ");
+            // Forgot to add tolower for a bit. Could have been confusing
+            string petType = Validation.StringNotEmpty($"   Choose {petName}'s type: ").ToLower();
             switch (petType)
             {
                 case "1":
                 case "dog":
                     {
+                        // For all animal types, create a new object of that type, then save it to
+                        // the local file, and return it to the method that called the wizard
                         Dog tmpDog = new Dog(petName, petGender, petAge, petSpecies);
                         SaveAnimalData(tmpDog, "dog");
                         return tmpDog;
@@ -248,6 +258,8 @@ namespace finalProject
                     }
                     break;
             }
+            // Including this backup in case the user tricks the app into getting past the animal type switch,
+            // though it shouldn't be possible
             Animal tmpAnimal = new Animal(petName, petGender, petAge, petSpecies);
             SaveAnimalData(tmpAnimal, "animal");
             return tmpAnimal;
@@ -255,8 +267,14 @@ namespace finalProject
 
         private void TrainPet(Animal currentAnimal)
         {
+            // Check that the animal is a trainable type
+            // Only dogs are trainable in this app, but
+            // others could be easily enabled for this feature
             while (!(currentAnimal is ITrainable))
             {
+                // Make the user pick an animal that is trainable before moving on.
+                // THhs seemed better than pushing you back to the main menu. With
+                // more time, I would have added the 3 time loop from the JS version
                 Console.WriteLine($"\n  A {currentAnimal.Species} is not a trainable species.\n\n  Please select another animal to see its commands.\n");
                 currentAnimal = null;
                 currentAnimal = selectAnimal(currentAnimal);
@@ -283,6 +301,8 @@ namespace finalProject
                 case "2":
                 case "list":
                     {
+                        // The point of the app is to provide a reference of known commands to a pet owner/zookeeper
+                        // rather than a "tamagotchi" type app, so the commands just list out.
                         ((ITrainable)currentAnimal).ListCommands();
                     }
                     break;
@@ -296,14 +316,19 @@ namespace finalProject
 
         }
 
+        // In hindsight, this method didn't really need to exist...
         private void Habitat(Animal currentPet)
         {
             currentPet.ListHabitatTasks();
         }
 
+        // Save the animal data to the local file strucutre. This puts the animals in
+        // their own specific files by type.
         public void SaveAnimalData(Animal currentAnimal, string type)
         {
             string filePath = folder + "Animals/" + type + "_list.csv";
+            // Check if the file exists and create it if not
+            // The folder strucutre DOES need to exist first
             if (!File.Exists(filePath))
             {
                 FileStream newAnimalList = File.Create(filePath);
@@ -315,8 +340,10 @@ namespace finalProject
             }
         }
 
+        // Load the data from the individual animal files into the program
         public void LoadAnimalData()
         {
+            // An array of animal types to reference for loading the individual animal files
             string[] type = { "dog", "cat", "reptile", "fish", "amphibian", "small_mammal", "bird" };
             foreach (String animal in type)
             {
@@ -331,6 +358,9 @@ namespace finalProject
                             string line = inStream.ReadLine();
                             string[] values = line.Split(',');
                             int tmpAge = Int32.Parse(values[2]);
+                            // Only create a single animal based on each entry
+                            // JS identifies the animals by a separate _type property,
+                            // but separate files seemed easier to manage here at the time.
                             switch (animal)
                             {
                                 case "dog":
@@ -410,6 +440,8 @@ namespace finalProject
 
         private void Header()
         {
+            // Managed to work this into both app versions
+            //  °º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸
             Console.Clear();
             Console.WriteLine(
                 @"  ____      _   _       

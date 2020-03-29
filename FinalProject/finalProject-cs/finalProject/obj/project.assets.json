@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/finalProject.csproj",
+      "projectUniqueName": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 1 Assignments/McNees_Michael_Portfolio/FinalProject/finalProject-cs/finalProject/finalProject.csproj",
       "projectName": "finalProject",
-      "projectPath": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/finalProject.csproj",
+      "projectPath": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 1 Assignments/McNees_Michael_Portfolio/FinalProject/finalProject-cs/finalProject/finalProject.csproj",
       "packagesPath": "/Users/michael/.nuget/packages/",
-      "outputPath": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 4 - Final Project/finalProject/finalProject/obj/",
+      "outputPath": "/Users/michael/Dropbox/Full Sail/11 - Project & Portfolio 2/Week 1 Assignments/McNees_Michael_Portfolio/FinalProject/finalProject-cs/finalProject/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

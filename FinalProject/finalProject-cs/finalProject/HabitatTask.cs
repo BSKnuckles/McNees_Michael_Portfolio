@@ -22,6 +22,9 @@ namespace finalProject
             get { return _frequency; }
         }
 
+        // This was an interesting bit to work through
+        // It ended up being more crude than the JS version,
+        // but both give me the same general result
         public int LastPerformed
         {
             get
@@ -45,6 +48,7 @@ namespace finalProject
             {
                 return true;
             }
+            // Use this to see if the task has never been performed
             else if (LastPerformed == -1)
             {
                 return true;

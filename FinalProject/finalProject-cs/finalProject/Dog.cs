@@ -18,6 +18,8 @@ namespace finalProject
             set { _behaviors = value; }
         }
 
+        // This is where I used method overriding...
+        // Not the best demonstration, but it works.
         public override void Eat()
         {
             // I ran out of creativity for this part...
@@ -33,6 +35,7 @@ namespace finalProject
                 foreach (string Signal in _behaviors.Keys)
                 {
                     bool hasValue = _behaviors.TryGetValue(Signal, out string behavior);
+                    // TIL you can use super class methods with base.
                     Console.WriteLine($"  The {Signal} command will make {base.Name} perform {behavior}.");
                 }
             }
@@ -45,6 +48,7 @@ namespace finalProject
 
         public string Train(string signal, string behavior)
         {
+            // Loop until the user gives us a signal that isn't in the dictionary already
             while (Behaviors.ContainsKey(signal))
             {
                 Console.WriteLine($"\n  {base.Name} already knows a behavior with that signal.\n" +
@@ -52,6 +56,7 @@ namespace finalProject
                 signal = Validation.StringNotEmpty($"\n  Enter a different signal you will use for {behavior}: ");
             }
 
+            // Not necessary, but fun to check the gender and provide the correct pronoun 
             string pronoun = "";
             if (base.Gender.ToLower() == "f")
             {

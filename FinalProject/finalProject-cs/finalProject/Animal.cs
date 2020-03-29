@@ -81,6 +81,9 @@ namespace finalProject
             _diet.AddDietItem(foodChoice, qty);
         }
 
+        // This method grew to be quite large and cumbersome. With more time, I
+        // would have liked to refactor this to be more organized
+        // It also does more than the name implies, which is not ideal...
         public void ListHabitatTasks()
         {
             bool addingTasks = true;
@@ -120,14 +123,17 @@ namespace finalProject
                 Console.WriteLine("   Commands: [cancel] [new]");
 
                 string choice = Validation.StringNotEmpty("\n  Please choose a task number or other command: ").ToLower();
+                // Try to parse the input to see if it was a number
                 Int32.TryParse(choice, out int intChoice);
                 intChoice -= 1;
                 if (choice == "cancel")
                 {
+                    // Break out of the loop if they say cancel
                     break;
                 }
                 else if (choice == "new")
                 {
+                    // Add a single task if they say new and then loop unti lthey want to be done
                     AddToHabitatTasks();
                     string keepAdding = Validation.StringNotEmpty("\n  Add another task? (y/n): ").ToLower();
                     switch (keepAdding)
@@ -155,6 +161,9 @@ namespace finalProject
                 }
                 else if (intChoice >= 0 && intChoice < _habitatTasks.Count)
                 {
+                    // make a temporary task from the one we picked to complete it
+                    // This could probably be condensed to:
+                    // _habitatTasks[intChoice].CompleteTask();
                     HabitatTask tmpTask = _habitatTasks[intChoice];
                     tmpTask.CompleteTask();
                 }
@@ -168,6 +177,7 @@ namespace finalProject
 
         public void AddToHabitatTasks()
         {
+            // Fairly self explanatory. This one adds the tasks to the animal's list
             Console.Clear();
             Console.WriteLine("\n  --  New Habitat Task  --\n");
             string taskName = Validation.StringNotEmpty("  Enter the name for this task:  ");

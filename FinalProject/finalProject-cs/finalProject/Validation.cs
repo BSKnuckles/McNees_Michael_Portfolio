@@ -40,6 +40,8 @@ namespace finalProject
             return validatedInt;
         }
 
+        // This method originally was a different name to be separate from GetInt
+        // and I refactored to make it an overload instead. Seemed cleaner
         public static int GetInt(string message, int min, int max)
         {
             int validatedInt;
@@ -64,6 +66,7 @@ namespace finalProject
             return validatedInt;
         }
 
+        // Tried a dowhile loop for this one
         public static decimal GetDecimal(string message = "Enter a number: ")
         {
             decimal validatedDecimal;
